@@ -7,7 +7,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-public class Solution {
+class Solution {
 
     // Complete the minimumSwaps function below.
     static int minimumSwaps(int[] arr) {
