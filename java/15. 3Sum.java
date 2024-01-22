@@ -21,11 +21,7 @@ class Solution {
             while (left < right) {
                 if (nums[left] + nums[right] + nums[i] == 0) {
                     // got it
-                    List<Integer> newList = new ArrayList<Integer>();
-                    newList.add(nums[i]);
-                    newList.add(nums[left]);
-                    newList.add(nums[right]);
-                    list.add(newList);
+                    list.add(Arrays.asList(nums[i], nums[left], nums[right]));
                 }
 
                 if (nums[left] + nums[right] + nums[i] > 0) {
